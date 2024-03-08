@@ -312,12 +312,12 @@ const people = [
   },
 ];
 
-// const young = people.filter((item) => {
-//   return item.age < 30;
-// });
-// // console.log(young);
-// const rich = people.filter((item) =>item.netWorth>=80000)
-// console.log(rich);
+const young = people.filter((item) => {
+  return item.age < 30;
+});
+// console.log(young);
+const rich = people.filter((item) =>item.netWorth>=80000)
+console.log(rich);
 
 
 log('hello')
